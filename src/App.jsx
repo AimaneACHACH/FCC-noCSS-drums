@@ -23,7 +23,7 @@ const App = () => {
     C : "Closed-HH"
   }
 
-  const [isPlayed,setIsPlayed] = useState('')
+  const [isPlayed,setIsPlayed] = useState('_______')
 
   const playAudio = (char) => {
     if (['Q','W','E','A','S','D','Z','X','C'].includes(char)){
@@ -42,7 +42,7 @@ const App = () => {
   window.addEventListener('keydown', handleKeyDown);
   
   return (
-    <div className="drums" id='drum-machine'>
+    <div className="drums" id='drum-machine' align="center">
       <div className="drumsDisplay" id='display'>{isPlayed}</div>
       <div className="drum-pad" id="Heater 1"     onClick={()=>playAudio('Q')}>Q<audio src={H1}  id='Q' className='clip'></audio></div>
       <div className="drum-pad" id="Heater 2"     onClick={()=>playAudio('W')}>W<audio src={H2}  id='W' className='clip'></audio></div>
