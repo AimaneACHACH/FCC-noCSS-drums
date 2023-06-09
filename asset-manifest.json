@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/drums/static/css/main.a240c550.css",
+    "main.css": "/drums/static/css/main.31d6cfe0.css",
     "main.js": "/drums/static/js/main.52ddb06b.js",
     "static/media/RP4_KICK_1.mp3": "/drums/static/media/RP4_KICK_1.72881f4bf80d341da208.mp3",
     "static/media/Heater-1.mp3": "/drums/static/media/Heater-1.cb8d95b6caf027812d3b.mp3",
@@ -12,11 +12,10 @@
     "static/media/Kick_n_Hat.mp3": "/drums/static/media/Kick_n_Hat.6dc44dc15fca60d9d594.mp3",
     "static/media/Cev_H2.mp3": "/drums/static/media/Cev_H2.0b159bd307a31937b138.mp3",
     "index.html": "/drums/index.html",
-    "main.a240c550.css.map": "/drums/static/css/main.a240c550.css.map",
     "main.52ddb06b.js.map": "/drums/static/js/main.52ddb06b.js.map"
   },
   "entrypoints": [
-    "static/css/main.a240c550.css",
+    "static/css/main.31d6cfe0.css",
     "static/js/main.52ddb06b.js"
   ]
 }
